@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary meta -->
+  <title>Serviços | Reboques Matos — Guincho, Pronto Socorro e Oficina em Aveiro</title>
+  <meta name="description" content="Serviço de guincho com plataforma flatbed, pronto socorro 24 horas e oficina de reparação automóvel em Aveiro. Conheça todos os nossos serviços." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://reboquesmatos.pt/servicos" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://reboquesmatos.pt/servicos" />
+  <meta property="og:title" content="Serviços | Reboques Matos — Guincho, Pronto Socorro e Oficina em Aveiro" />
+  <meta property="og:description" content="Serviço de guincho com plataforma flatbed, pronto socorro 24 horas e oficina de reparação automóvel em Aveiro. Conheça todos os nossos serviços." />
+  <meta property="og:locale" content="pt_PT" />
+  <meta property="og:site_name" content="Reboques Matos" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Serviços | Reboques Matos" />
+  <meta name="twitter:description" content="Guincho, pronto socorro 24 horas e oficina de reparação em Aveiro." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Reboques Matos",
+    "url": "https://reboquesmatos.pt",
+    "telephone": "+351234941680",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua do Castanheiro, 27",
+      "addressLocality": "Aveiro",
+      "postalCode": "3810-739",
+      "addressCountry": "PT"
+    },
+    "openingHours": "Mo-Su 00:00-24:00",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de Assistência Automóvel",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Serviço de Guincho" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pronto Socorro" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Oficina de Reparação" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Assistência 24 Horas" } }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav class="nav nav--solid" aria-label="Navegação principal">
+    <div class="nav__inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav__logo" aria-label="Reboques Matos — Página inicial">
+        <div class="nav__logo-mark" aria-hidden="true">RM</div>
+        <span class="nav__logo-text">
+          Reboques Matos
+          <span class="nav__logo-sub">Aveiro · 24 Horas</span>
+        </span>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Início</a></li>
+        <li><a href="servicos.html" class="nav__link is-active" aria-current="page">Serviços</a></li>
+        <li><a href="sobre.html" class="nav__link">Sobre Nós</a></li>
+        <li><a href="contacto.html" class="nav__link">Contacto</a></li>
+      </ul>
+
+      <!-- Right cluster -->
+      <div class="nav__actions">
+        <a href="tel:+351234941680" class="nav__phone" aria-label="Ligar para 234 941 680">
+          <i data-lucide="phone" class="nav__phone-icon" aria-hidden="true"></i>
+          234 941 680
+        </a>
+        <a href="tel:+351234941680" class="btn btn--primary btn--sm">Ligar Agora</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button
+        class="nav__hamburger"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="mobile-drawer"
+      >
+        <span class="nav__hamburger-bar"></span>
+        <span class="nav__hamburger-bar"></span>
+        <span class="nav__hamburger-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="nav__drawer" id="mobile-drawer" role="dialog" aria-label="Menu de navegação">
+      <ul class="nav__drawer-links" role="list">
+        <li><a href="index.html" class="nav__drawer-link">Início</a></li>
+        <li><a href="servicos.html" class="nav__drawer-link is-active" aria-current="page">Serviços</a></li>
+        <li><a href="sobre.html" class="nav__drawer-link">Sobre Nós</a></li>
+        <li><a href="contacto.html" class="nav__drawer-link">Contacto</a></li>
+      </ul>
+      <a href="tel:+351234941680" class="nav__drawer-phone" aria-label="Ligar agora">
+        <i data-lucide="phone" aria-hidden="true"></i>
+        234 941 680
+      </a>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       PAGE HERO
+       ============================================================ -->
+  <header class="page-hero" aria-label="Cabeçalho da página">
+    <div class="page-hero__inner">
+
+      <!-- Breadcrumb -->
+      <nav class="page-hero__breadcrumb" aria-label="Localização na página">
+        <a href="index.html" class="page-hero__breadcrumb-item">Início</a>
+        <span class="page-hero__breadcrumb-sep" aria-hidden="true">/</span>
+        <span class="page-hero__breadcrumb-current">Serviços</span>
+      </nav>
+
+      <h1 class="page-hero__title">Os Nossos Serviços</h1>
+      <p class="page-hero__desc">
+        Assistência profissional a qualquer hora do dia ou da noite. Guincho, pronto socorro e
+        oficina de reparação — tudo sob o mesmo teto em Aveiro.
+      </p>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ============================================================
+         SERVICE DETAIL — 1. GUINCHO (text left / image right)
+         ============================================================ -->
+    <section class="service-detail animate-on-scroll" id="guincho" aria-labelledby="guincho-title">
+      <div class="container">
+        <div class="service-detail__inner">
+
+          <!-- Content -->
+          <div class="service-detail__content">
+            <div class="section-header__label">
+              <span class="label">Serviço Principal</span>
+            </div>
+
+            <div class="service-card__icon" aria-hidden="true" style="width:56px;height:56px;margin-bottom:0.5rem;">
+              <i data-lucide="truck"></i>
+            </div>
+
+            <h2 id="guincho-title" class="page-hero__title" style="font-size:clamp(1.875rem,4vw,3rem);margin-bottom:0;">
+              Serviço de Guincho
+            </h2>
+
+            <p class="body-text text-muted">
+              Transporte seguro de veículos ligeiros e pesados com plataforma flatbed profissional.
+              A nossa frota está equipada para qualquer situação — desde um simples reboque até
+              operações de resgate mais complexas.
+            </p>
+
+            <ul class="service-detail__features" aria-label="Características do serviço de guincho">
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Plataforma flatbed para veículos até 3500 kg
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Transporte de veículos ligeiros e comerciais
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Resgate de veículos em situações difíceis
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Cobertura em toda a região de Aveiro
+              </li>
+            </ul>
+
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.5rem;">
+              <a href="tel:+351234941680" class="btn btn--primary">
+                <i data-lucide="phone" aria-hidden="true"></i>
+                Pedir Guincho
+              </a>
+              <a href="contacto.html" class="btn btn--secondary">Pedir Orçamento</a>
+            </div>
+          </div>
+
+          <!-- Image placeholder -->
+          <div class="service-detail__image" aria-hidden="true">
+            <div
+              style="
+                width:100%;
+                height:100%;
+                background: linear-gradient(135deg, #161C27 0%, #1E2739 40%, #0D1117 100%);
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                gap:1.25rem;
+                color:var(--color-accent-light);
+              "
+            >
+              <i data-lucide="truck" style="width:72px;height:72px;opacity:0.5;"></i>
+              <span
+                style="
+                  font-family:var(--font-heading);
+                  font-size:0.75rem;
+                  text-transform:uppercase;
+                  letter-spacing:0.15em;
+                  color:var(--color-muted);
+                "
+              >Plataforma Flatbed Profissional</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SERVICE DETAIL — 2. PRONTO SOCORRO (image left / text right)
+         ============================================================ -->
+    <section
+      class="service-detail service-detail--reverse animate-on-scroll"
+      id="pronto-socorro"
+      aria-labelledby="pronto-socorro-title"
+      style="background-color:var(--color-surface);"
+    >
+      <div class="container">
+        <div class="service-detail__inner">
+
+          <!-- Content -->
+          <div class="service-detail__content">
+            <div class="section-header__label">
+              <span class="label">Emergência Rodoviária</span>
+            </div>
+
+            <div class="service-card__icon" aria-hidden="true" style="width:56px;height:56px;margin-bottom:0.5rem;">
+              <i data-lucide="zap"></i>
+            </div>
+
+            <h2 id="pronto-socorro-title" class="page-hero__title" style="font-size:clamp(1.875rem,4vw,3rem);margin-bottom:0;">
+              Pronto Socorro
+            </h2>
+
+            <p class="body-text text-muted">
+              Avaria inesperada? A nossa equipa de técnicos qualificados desloca-se até à sua
+              localização para resolver o problema no local, sempre que possível. Rapidez e
+              eficácia são a nossa prioridade.
+            </p>
+
+            <ul class="service-detail__features" aria-label="Características do pronto socorro">
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Assistência mecânica no local da avaria
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Diagnóstico rápido e reparação imediata
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Mudança de pneus e carga de bateria
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Tempo médio de resposta: 30 minutos na zona de Aveiro
+              </li>
+            </ul>
+
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.5rem;">
+              <a href="tel:+351234941680" class="btn btn--primary">
+                <i data-lucide="phone" aria-hidden="true"></i>
+                Ligar Agora
+              </a>
+              <a href="contacto.html" class="btn btn--secondary">Saber Mais</a>
+            </div>
+          </div>
+
+          <!-- Image placeholder -->
+          <div class="service-detail__image" aria-hidden="true">
+            <div
+              style="
+                width:100%;
+                height:100%;
+                background: linear-gradient(135deg, #1E2739 0%, #161C27 50%, #0D1117 100%);
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                gap:1.25rem;
+                color:var(--color-accent-light);
+              "
+            >
+              <i data-lucide="zap" style="width:72px;height:72px;opacity:0.5;"></i>
+              <span
+                style="
+                  font-family:var(--font-heading);
+                  font-size:0.75rem;
+                  text-transform:uppercase;
+                  letter-spacing:0.15em;
+                  color:var(--color-muted);
+                "
+              >Assistência no Local da Avaria</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SERVICE DETAIL — 3. OFICINA (text left / image right)
+         ============================================================ -->
+    <section class="service-detail animate-on-scroll" id="oficina" aria-labelledby="oficina-title">
+      <div class="container">
+        <div class="service-detail__inner">
+
+          <!-- Content -->
+          <div class="service-detail__content">
+            <div class="section-header__label">
+              <span class="label">Instalações Próprias</span>
+            </div>
+
+            <div class="service-card__icon" aria-hidden="true" style="width:56px;height:56px;margin-bottom:0.5rem;">
+              <i data-lucide="wrench"></i>
+            </div>
+
+            <h2 id="oficina-title" class="page-hero__title" style="font-size:clamp(1.875rem,4vw,3rem);margin-bottom:0;">
+              Oficina de Reparação
+            </h2>
+
+            <p class="body-text text-muted">
+              Instalações próprias com equipamento especializado para diagnóstico, manutenção e
+              reparação de automóveis de todas as marcas. Trabalho sério, com garantia.
+            </p>
+
+            <ul class="service-detail__features" aria-label="Características da oficina de reparação">
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Diagnóstico eletrónico multimarca
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Manutenção preventiva e revisões
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Reparação mecânica e elétrica
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Todas as marcas e modelos
+              </li>
+            </ul>
+
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.5rem;">
+              <a href="tel:+351234941680" class="btn btn--primary">
+                <i data-lucide="phone" aria-hidden="true"></i>
+                Marcar Revisão
+              </a>
+              <a href="contacto.html" class="btn btn--secondary">Pedir Orçamento</a>
+            </div>
+          </div>
+
+          <!-- Image placeholder -->
+          <div class="service-detail__image" aria-hidden="true">
+            <div
+              style="
+                width:100%;
+                height:100%;
+                background: linear-gradient(135deg, #161C27 0%, #1E2739 40%, #0D1117 100%);
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                gap:1.25rem;
+                color:var(--color-accent-light);
+              "
+            >
+              <i data-lucide="wrench" style="width:72px;height:72px;opacity:0.5;"></i>
+              <span
+                style="
+                  font-family:var(--font-heading);
+                  font-size:0.75rem;
+                  text-transform:uppercase;
+                  letter-spacing:0.15em;
+                  color:var(--color-muted);
+                "
+              >Oficina Equipada e Certificada</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SERVICE DETAIL — 4. ASSISTÊNCIA 24H (image left / text right)
+         ============================================================ -->
+    <section
+      class="service-detail service-detail--reverse animate-on-scroll"
+      id="assistencia-24h"
+      aria-labelledby="assistencia-24h-title"
+      style="background-color:var(--color-surface);"
+    >
+      <div class="container">
+        <div class="service-detail__inner">
+
+          <!-- Content -->
+          <div class="service-detail__content">
+            <div class="section-header__label">
+              <span class="label">Sempre Disponíveis</span>
+            </div>
+
+            <div class="service-card__icon" aria-hidden="true" style="width:56px;height:56px;margin-bottom:0.5rem;">
+              <i data-lucide="clock"></i>
+            </div>
+
+            <h2 id="assistencia-24h-title" class="page-hero__title" style="font-size:clamp(1.875rem,4vw,3rem);margin-bottom:0;">
+              Assistência 24 Horas
+            </h2>
+
+            <p class="body-text text-muted">
+              Dia ou noite, fim de semana ou feriado — estamos sempre disponíveis. A Reboques
+              Matos não fecha. Nunca. Porque uma avaria não escolhe hora.
+            </p>
+
+            <ul class="service-detail__features" aria-label="Características da assistência 24 horas">
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Disponível 24 horas por dia, 365 dias por ano
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Operadores prontos a atender a qualquer hora
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Cobertura noturna sem custos adicionais
+              </li>
+              <li class="service-detail__feature">
+                <span class="service-detail__feature-dot" aria-hidden="true"></span>
+                Linha direta: 234 941 680
+              </li>
+            </ul>
+
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.5rem;">
+              <a href="tel:+351234941680" class="btn btn--emergency btn--lg">
+                <i data-lucide="phone" aria-hidden="true"></i>
+                Ligar Agora — 234 941 680
+              </a>
+            </div>
+          </div>
+
+          <!-- Image placeholder -->
+          <div class="service-detail__image" aria-hidden="true">
+            <div
+              style="
+                width:100%;
+                height:100%;
+                background: linear-gradient(135deg, #1E2739 0%, #0D1117 60%, #161C27 100%);
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content:center;
+                gap:1.25rem;
+                color:var(--color-accent-light);
+              "
+            >
+              <i data-lucide="clock" style="width:72px;height:72px;opacity:0.5;"></i>
+              <span
+                style="
+                  font-family:var(--font-heading);
+                  font-size:0.75rem;
+                  text-transform:uppercase;
+                  letter-spacing:0.15em;
+                  color:var(--color-muted);
+                "
+              >24H · 365 Dias Por Ano</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         FAQ SECTION
+         ============================================================ -->
+    <section class="section section--alt animate-on-scroll" aria-labelledby="faq-title">
+      <div class="container">
+
+        <div class="section-header--center animate-on-scroll">
+          <div class="section-header__label">
+            <span class="label">Perguntas Frequentes</span>
+          </div>
+          <h2 id="faq-title" class="section-header__title">FAQ</h2>
+          <p class="section-header__desc">
+            As perguntas que mais nos fazem — respondidas de forma clara e direta.
+          </p>
+        </div>
+
+        <div class="faq" role="list">
+
+          <!-- Item 1 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">Qual a área de cobertura do serviço de guincho?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Cobrimos toda a região de Aveiro e arredores, incluindo as principais autoestradas
+                (A1, A25, A17). Para distâncias maiores, contacte-nos para um orçamento personalizado.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">Trabalham com veículos pesados e camiões?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Sim. A nossa frota inclui equipamento preparado para veículos pesados até 3500 kg.
+                Para veículos de maior porte, dispomos de soluções específicas — contacte-nos
+                diretamente.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">Quanto tempo demora a chegada do guincho?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Na zona urbana de Aveiro, o tempo médio de resposta é de 30 minutos. Em zonas mais
+                afastadas da região, pode variar entre 30 a 60 minutos, dependendo da localização.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">A oficina precisa de marcação prévia?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Recomendamos marcação prévia para serviços de manutenção e reparação programada,
+                através do telefone 234 941 680. Para situações urgentes, recebemos sem marcação
+                sempre que possível.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">Têm acordo com seguradoras?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Trabalhamos com diversas seguradoras e empresas de assistência em viagem. Contacte-nos
+                para verificar se a sua seguradora está incluída nos nossos protocolos.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">O pronto socorro inclui reparação no local?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Sempre que possível, sim. Os nossos técnicos tentam resolver a avaria no local.
+                Caso não seja possível, procedemos ao reboque para a nossa oficina ou para o local
+                da sua preferência.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false" type="button">
+              <span class="faq__question-text">Podem transportar motos e veículos de baixa suspensão?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <i data-lucide="plus"></i>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Sim. A nossa plataforma flatbed permite o transporte seguro de motos, veículos
+                desportivos e veículos com suspensão rebaixada, sem qualquer risco de danos.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CTA BANNER
+         ============================================================ -->
+    <section class="cta-banner animate-on-scroll" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-banner__inner">
+
+          <p class="label" style="color:var(--color-accent-light);">Assistência Imediata</p>
+
+          <h2 id="cta-title" class="cta-banner__title">
+            Avariado? Estamos a Caminho.
+          </h2>
+
+          <p class="cta-banner__desc">
+            Ligue agora. A nossa equipa atende 24 horas por dia, 365 dias por ano —
+            sem exceções, sem filas de espera.
+          </p>
+
+          <a href="tel:+351234941680" class="cta-banner__phone" aria-label="Ligar para 234 941 680">
+            234 941 680
+          </a>
+
+          <div class="cta-banner__actions">
+            <a href="tel:+351234941680" class="btn btn--emergency btn--lg">
+              <i data-lucide="phone" aria-hidden="true"></i>
+              Ligar Agora
+            </a>
+            <a href="contacto.html" class="btn btn--outline-white btn--lg">
+              Pedir Orçamento
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <!-- Brand column -->
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Reboques Matos — Página inicial">
+            <div class="footer__logo-mark" aria-hidden="true">RM</div>
+            <span class="footer__logo-text">Reboques Matos</span>
+          </a>
+          <p class="footer__desc">
+            Assistência automóvel profissional em Aveiro. Guincho, pronto socorro e
+            oficina de reparação disponíveis 24 horas por dia, todos os dias do ano.
+          </p>
+          <div class="footer__socials" aria-label="Redes sociais">
+            <a
+              href="https://www.facebook.com/reboquesmatos"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook da Reboques Matos"
+            >
+              <i data-lucide="facebook" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://wa.me/351234941680"
+              class="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp da Reboques Matos"
+            >
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Services column -->
+        <div class="footer__col">
+          <h3 class="footer__col-title">Serviços</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="/servicos#guincho" class="footer__col-link">Serviço de Guincho</a></li>
+            <li><a href="/servicos#pronto-socorro" class="footer__col-link">Pronto Socorro</a></li>
+            <li><a href="/servicos#oficina" class="footer__col-link">Oficina de Reparação</a></li>
+            <li><a href="/servicos#assistencia-24h" class="footer__col-link">Assistência 24 Horas</a></li>
+          </ul>
+        </div>
+
+        <!-- Navigation column -->
+        <div class="footer__col">
+          <h3 class="footer__col-title">Navegação</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="index.html" class="footer__col-link">Início</a></li>
+            <li><a href="servicos.html" class="footer__col-link">Serviços</a></li>
+            <li><a href="sobre.html" class="footer__col-link">Sobre Nós</a></li>
+            <li><a href="contacto.html" class="footer__col-link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact column -->
+        <div class="footer__col">
+          <h3 class="footer__col-title">Contacto</h3>
+          <ul class="footer__contact-items" role="list">
+            <li class="footer__contact-item">
+              <i data-lucide="phone" class="footer__contact-icon" aria-hidden="true"></i>
+              <span class="footer__contact-text">
+                <a href="tel:+351234941680">234 941 680</a>
+              </span>
+            </li>
+            <li class="footer__contact-item">
+              <i data-lucide="map-pin" class="footer__contact-icon" aria-hidden="true"></i>
+              <address class="footer__contact-text" style="font-style:normal;">
+                Rua do Castanheiro, 27<br />
+                3810-739 Aveiro, Portugal
+              </address>
+            </li>
+            <li class="footer__contact-item">
+              <i data-lucide="clock" class="footer__contact-icon" aria-hidden="true"></i>
+              <span class="footer__contact-text">
+                Aberto 24 horas · Todos os dias
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span id="footer-year">2026</span> Reboques Matos. Todos os direitos reservados.
+        </p>
+        <nav class="footer__bottom-links" aria-label="Links legais">
+          <a href="/politica-de-privacidade" class="footer__bottom-link">Política de Privacidade</a>
+          <a href="/termos-de-uso" class="footer__bottom-link">Termos de Uso</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       EMERGENCY STRIP (mobile only)
+       ============================================================ -->
+  <div class="emergency-strip" role="complementary" aria-label="Contacto de emergência">
+    <a href="tel:+351234941680" class="emergency-strip__link" aria-label="Ligar agora para 234 941 680">
+      <i data-lucide="alert-triangle" class="emergency-strip__icon" aria-hidden="true"></i>
+      <span class="emergency-strip__text">Avaria? Ligue já:</span>
+      <span class="emergency-strip__number">234 941 680</span>
+    </a>
+  </div>
+
+
+  <!-- ============================================================
+       WHATSAPP FAB
+       ============================================================ -->
+  <div class="whatsapp-fab" aria-label="Contactar via WhatsApp">
+    <a
+      href="https://wa.me/351234941680?text=Ol%C3%A1%2C%20preciso%20de%20assist%C3%AAncia%20com%20o%20meu%20ve%C3%ADculo."
+      class="whatsapp-fab__link"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Abrir conversa no WhatsApp"
+    >
+      <svg
+        class="whatsapp-fab__icon"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+    <span class="whatsapp-fab__tooltip" aria-hidden="true">WhatsApp</span>
+  </div>
+
+
+  <!-- ============================================================
+       SCRIPTS
+       ============================================================ -->
+  <script>
+    // Auto-update copyright year
+    (function () {
+      var el = document.getElementById('footer-year');
+      if (el) el.textContent = new Date().getFullYear();
+    })();
+  </script>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+
+  <!-- Lucide icon init -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>

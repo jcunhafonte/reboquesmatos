@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Reboques Matos | Guincho e Pronto Socorro 24h em Aveiro</title>
+  <meta name="description" content="Serviço de guincho, pronto socorro e oficina de reparação em Aveiro. Assistência 24 horas, todos os dias. Ligue: 234 941 680.">
+  <link rel="canonical" href="https://reboquesmatos.pt/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Reboques Matos | Guincho e Pronto Socorro 24h em Aveiro">
+  <meta property="og:description" content="Serviço de guincho, pronto socorro e oficina de reparação em Aveiro. Assistência 24 horas, todos os dias. Ligue: 234 941 680.">
+  <meta property="og:image" content="https://reboquesmatos.pt/assets/og-image.jpg">
+  <meta property="og:url" content="https://reboquesmatos.pt/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["AutoRepair", "TowingService"],
+        "@id": "https://reboquesmatos.pt/#business",
+        "name": "Reboques Matos",
+        "url": "https://reboquesmatos.pt/",
+        "telephone": "+351234941680",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua do Castanheiro, 27",
+          "addressLocality": "Aveiro",
+          "postalCode": "3810-739",
+          "addressCountry": "PT"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.6405,
+          "longitude": -8.6538
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "description": "Serviço de guincho, pronto socorro e oficina de reparação em Aveiro. Assistência 24 horas, todos os dias.",
+        "areaServed": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6405,
+            "longitude": -8.6538
+          },
+          "geoRadius": "80000"
+        },
+        "image": "https://reboquesmatos.pt/assets/og-image.jpg",
+        "priceRange": "$$"
+      }
+    ]
+  }
+  </script>
+
+  <!-- GTM placeholder -->
+  <!-- Google Tag Manager — replace GTM-XXXXXXX with your container ID -->
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════════ -->
+  <nav class="nav navbar" role="navigation" aria-label="Navegação principal">
+    <div class="nav__inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav__logo" aria-label="Reboques Matos — Página inicial">
+        <div class="nav__logo-mark" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="22" height="22" aria-hidden="true">
+            <polygon points="60,5 110,32.5 110,87.5 60,115 10,87.5 10,32.5" fill="#ffffff" fill-opacity="0.2"/>
+            <text x="60" y="72" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="38" fill="#FFFFFF" letter-spacing="2">RM</text>
+          </svg>
+        </div>
+        <span class="nav__logo-text">
+          Reboques Matos
+          <span class="nav__logo-sub">Guincho &amp; Assistência</span>
+        </span>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav__links nav-links" role="list">
+        <li><a href="servicos.html" class="nav__link">Serviços</a></li>
+        <li><a href="sobre.html" class="nav__link">Sobre Nós</a></li>
+        <li><a href="contacto.html" class="nav__link">Contacto</a></li>
+      </ul>
+
+      <!-- Desktop actions -->
+      <div class="nav__actions">
+        <a href="tel:234941680" class="nav__phone" aria-label="Ligar para 234 941 680">
+          <i data-lucide="phone" class="nav__phone-icon" aria-hidden="true"></i>
+          234 941 680
+        </a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button
+        class="nav__hamburger mobile-menu-toggle"
+        type="button"
+        aria-label="Abrir menu de navegação"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+      >
+        <span class="nav__hamburger-bar"></span>
+        <span class="nav__hamburger-bar"></span>
+        <span class="nav__hamburger-bar"></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div class="nav__drawer mobile-nav" id="mobile-nav" role="dialog" aria-label="Menu de navegação móvel" aria-modal="true">
+    <ul class="nav__drawer-links" role="list">
+      <li><a href="index.html" class="nav__drawer-link">Início</a></li>
+      <li><a href="servicos.html" class="nav__drawer-link">Serviços</a></li>
+      <li><a href="sobre.html" class="nav__drawer-link">Sobre Nós</a></li>
+      <li><a href="contacto.html" class="nav__drawer-link">Contacto</a></li>
+    </ul>
+    <a href="tel:234941680" class="nav__drawer-phone" aria-label="Ligar para 234 941 680">
+      <i data-lucide="phone" aria-hidden="true"></i>
+      234 941 680
+    </a>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="hero" aria-label="Apresentação principal">
+
+      <!-- Background gradient (image placeholder) -->
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__bg-img" style="background: linear-gradient(135deg, #0a0e14 0%, #1a2332 50%, #0d1117 100%); width:100%; height:100%;"></div>
+      </div>
+
+      <!-- Overlay -->
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <!-- 24H Badge -->
+      <div class="badge-24h" aria-label="Assistência disponível 24 horas" role="img">
+        <span class="badge-24h__number">24H</span>
+        <span class="badge-24h__unit">Sempre</span>
+      </div>
+
+      <!-- Content -->
+      <div class="hero__inner">
+
+        <div class="hero__label animate-on-scroll" data-delay="0">
+          <span class="hero__label-dot" aria-hidden="true"></span>
+          <span class="label" style="color: var(--color-accent-light);">Assistência 24 Horas · Aveiro</span>
+        </div>
+
+        <h1 class="hero__title animate-on-scroll" data-delay="100">
+          Avariado?<br>Estamos a caminho.
+        </h1>
+
+        <p class="hero__desc animate-on-scroll" data-delay="200">
+          Guincho e pronto socorro em Aveiro — 24 horas, todos os dias.
+        </p>
+
+        <div class="hero__cta animate-on-scroll" data-delay="300">
+          <a href="tel:234941680" class="btn btn--primary btn--lg btn-pulse btn--emergency" aria-label="Ligar agora para 234 941 680">
+            <i data-lucide="phone" aria-hidden="true"></i>
+            Ligar Agora — 234 941 680
+          </a>
+          <a href="#servicos" class="btn btn--secondary btn--lg">
+            Ver Serviços ↓
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span class="hero__scroll-hint-text">Scroll</span>
+        <div class="hero__scroll-arrow"></div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         TRUST BAR
+    ═══════════════════════════════════════════════════════ -->
+    <section class="trust-bar" aria-label="Destaques do serviço">
+      <div class="container">
+        <ul class="trust-bar__grid" role="list">
+
+          <li class="trust-bar__item animate-on-scroll" data-delay="0">
+            <div class="trust-bar__icon" aria-hidden="true">
+              <i data-lucide="truck"></i>
+            </div>
+            <div class="trust-bar__content">
+              <div class="trust-bar__value">Guincho Profissional</div>
+              <div class="trust-bar__label">Plataforma flatbed · Ligeiros e pesados</div>
+            </div>
+          </li>
+
+          <li class="trust-bar__item animate-on-scroll" data-delay="100">
+            <div class="trust-bar__icon" aria-hidden="true">
+              <i data-lucide="wrench"></i>
+            </div>
+            <div class="trust-bar__content">
+              <div class="trust-bar__value">Oficina Própria</div>
+              <div class="trust-bar__label">Diagnóstico e reparação especializada</div>
+            </div>
+          </li>
+
+          <li class="trust-bar__item animate-on-scroll" data-delay="200">
+            <div class="trust-bar__icon" aria-hidden="true">
+              <i data-lucide="clock"></i>
+            </div>
+            <div class="trust-bar__content">
+              <div class="trust-bar__value">Assistência 24 Horas</div>
+              <div class="trust-bar__label">Todos os dias, incluindo feriados</div>
+            </div>
+          </li>
+
+          <li class="trust-bar__item animate-on-scroll" data-delay="300">
+            <div class="trust-bar__icon" aria-hidden="true">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <div class="trust-bar__content">
+              <div class="trust-bar__value">Aveiro e Região</div>
+              <div class="trust-bar__label">Cobertura alargada no distrito</div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SERVICES SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+
+        <header class="section-header section-header--center animate-on-scroll">
+          <div class="section-header__label">
+            <span class="label">O que fazemos</span>
+          </div>
+          <h2 class="section-header__title" id="servicos-title">Serviços</h2>
+        </header>
+
+        <ul class="services-grid" role="list">
+
+          <li class="animate-on-scroll" data-delay="0">
+            <a href="servicos.html" class="service-card" aria-label="Serviço de Guincho — saber mais">
+              <div class="service-card__icon" aria-hidden="true">
+                <i data-lucide="truck"></i>
+              </div>
+              <h3 class="service-card__title">Serviço de Guincho</h3>
+              <p class="service-card__desc">Transporte de veículos ligeiros e pesados. Plataforma flatbed para todas as situações.</p>
+              <span class="service-card__link" aria-hidden="true">
+                Saber mais
+                <i data-lucide="arrow-right"></i>
+              </span>
+            </a>
+          </li>
+
+          <li class="animate-on-scroll" data-delay="100">
+            <a href="servicos.html" class="service-card" aria-label="Pronto Socorro — saber mais">
+              <div class="service-card__icon" aria-hidden="true">
+                <i data-lucide="zap"></i>
+              </div>
+              <h3 class="service-card__title">Pronto Socorro</h3>
+              <p class="service-card__desc">Avaria na estrada? A nossa equipa chega até si, onde quer que esteja na região de Aveiro.</p>
+              <span class="service-card__link" aria-hidden="true">
+                Saber mais
+                <i data-lucide="arrow-right"></i>
+              </span>
+            </a>
+          </li>
+
+          <li class="animate-on-scroll" data-delay="200">
+            <a href="servicos.html" class="service-card" aria-label="Oficina de Reparação — saber mais">
+              <div class="service-card__icon" aria-hidden="true">
+                <i data-lucide="wrench"></i>
+              </div>
+              <h3 class="service-card__title">Oficina de Reparação</h3>
+              <p class="service-card__desc">Diagnóstico, manutenção e reparação de automóveis em instalações próprias com equipamento especializado.</p>
+              <span class="service-card__link" aria-hidden="true">
+                Saber mais
+                <i data-lucide="arrow-right"></i>
+              </span>
+            </a>
+          </li>
+
+          <li class="animate-on-scroll" data-delay="300">
+            <a href="servicos.html" class="service-card" aria-label="Assistência 24 Horas — saber mais">
+              <div class="service-card__icon" aria-hidden="true">
+                <i data-lucide="clock"></i>
+              </div>
+              <h3 class="service-card__title">Assistência 24 Horas</h3>
+              <p class="service-card__desc">Dia ou noite, fim de semana ou feriado. Nunca fechamos. Nunca.</p>
+              <span class="service-card__link" aria-hidden="true">
+                Saber mais
+                <i data-lucide="arrow-right"></i>
+              </span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         HOW IT WORKS SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section section--alt" aria-labelledby="como-funciona-title">
+      <div class="container">
+
+        <header class="section-header section-header--center animate-on-scroll">
+          <div class="section-header__label">
+            <span class="label">Como funciona</span>
+          </div>
+          <h2 class="section-header__title" id="como-funciona-title">3 Passos Simples</h2>
+        </header>
+
+        <ol class="steps" role="list">
+
+          <li class="step animate-on-scroll" data-delay="0">
+            <div class="step__number" aria-hidden="true">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Ligue para nós</h3>
+              <p class="step__desc">Um operador atende de imediato, 24h por dia.</p>
+            </div>
+          </li>
+
+          <li class="step animate-on-scroll" data-delay="150">
+            <div class="step__number" aria-hidden="true">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Enviamos ajuda</h3>
+              <p class="step__desc">Guincho ou técnico a caminho para a sua localização.</p>
+            </div>
+          </li>
+
+          <li class="step animate-on-scroll" data-delay="300">
+            <div class="step__number" aria-hidden="true">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Problema resolvido</h3>
+              <p class="step__desc">Na estrada ou na nossa oficina — cuidamos de tudo.</p>
+            </div>
+          </li>
+
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ABOUT SNIPPET SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="sobre-nos-title">
+      <div class="container">
+
+        <div class="about-split">
+
+          <!-- Image placeholder -->
+          <div class="about-split__image animate-on-scroll" data-delay="0">
+            <div
+              class="about-split__img"
+              style="background: linear-gradient(135deg, #161C27 0%, #1E2739 60%, #1A2332 100%); width:100%; height:100%; display:flex; align-items:center; justify-content:center;"
+              role="img"
+              aria-label="Equipa Reboques Matos em ação"
+            >
+              <i data-lucide="truck" style="width:80px;height:80px;color:var(--color-accent);opacity:0.4;" aria-hidden="true"></i>
+            </div>
+            <div class="about-split__image-badge" aria-label="Mais de 20 anos de experiência">
+              <span class="about-split__image-badge-value">20+</span>
+              <span class="about-split__image-badge-label">Anos de<br>experiência</span>
+            </div>
+          </div>
+
+          <!-- Text content -->
+          <div class="about-split__content animate-on-scroll" data-delay="150">
+            <header>
+              <div class="section-header__label" style="margin-bottom:0.875rem;">
+                <span class="label">A nossa história</span>
+              </div>
+              <h2 class="section-header__title" id="sobre-nos-title">
+                Confiança medida em quilómetros.
+              </h2>
+            </header>
+            <p class="body-text text-muted">
+              A Reboques Matos é uma empresa de referência na região de Aveiro em assistência rodoviária, serviço de guincho e reparação automóvel. Dia ou noite, estamos sempre prontos para si.
+            </p>
+            <a href="sobre.html" class="service-card__link" style="font-size:1rem; margin-top:0.5rem;" aria-label="Conhecer mais sobre a Reboques Matos">
+              Conhecer-nos melhor →
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         COVERAGE MAP SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section section--alt" aria-labelledby="cobertura-title">
+      <div class="container">
+
+        <header class="section-header section-header--center animate-on-scroll" style="margin-bottom:2.5rem;">
+          <div class="section-header__label">
+            <span class="label">Área de cobertura</span>
+          </div>
+          <h2 class="section-header__title" id="cobertura-title">Aveiro e Região</h2>
+        </header>
+
+        <div class="coverage__map-wrapper animate-on-scroll" style="max-width:860px; margin-inline:auto;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0!2d-8.6538!3d40.6405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a0943a7d9e53%3A0x3be5f3ccad38e43!2sRua%20do%20Castanheiro%2027%2C%203810-739%20Aveiro!5e0!3m2!1spt!2spt!4v1700000000000!5m2!1spt!2spt"
+            title="Localização Reboques Matos — Rua do Castanheiro, 27, Aveiro"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+          <div class="coverage__map-overlay" aria-hidden="true"></div>
+        </div>
+
+        <p class="text-center text-muted body-text animate-on-scroll" style="margin-top:1.5rem; max-width:55ch; margin-inline:auto;" data-delay="100">
+          Cobrimos Aveiro e toda a região. Em caso de dúvida, ligue — chegamos.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         TESTIMONIALS SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="testemunhos-title">
+      <div class="container">
+
+        <header class="section-header section-header--center animate-on-scroll">
+          <div class="section-header__label">
+            <span class="label">Testemunhos</span>
+          </div>
+          <h2 class="section-header__title" id="testemunhos-title">O que dizem os nossos clientes</h2>
+        </header>
+
+        <ul class="testimonials-grid" role="list" aria-label="Avaliações de clientes">
+
+          <li class="testimonial-card animate-on-scroll" data-delay="0">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              Fiquei parado às 3 da manhã na A1. Liguei e em menos de 40 minutos tinham o guincho no local. Serviço impecável.
+            </blockquote>
+            <footer class="testimonial-card__author">
+              <div class="testimonial-card__avatar-placeholder" aria-hidden="true">MS</div>
+              <div>
+                <div class="testimonial-card__name">Miguel S.</div>
+                <div class="testimonial-card__meta">Aveiro · cliente desde 2020</div>
+              </div>
+            </footer>
+          </li>
+
+          <li class="testimonial-card animate-on-scroll" data-delay="100">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              A oficina resolveu um problema que dois outros mecânicos não conseguiram diagnosticar. Recomendo a 100%.
+            </blockquote>
+            <footer class="testimonial-card__author">
+              <div class="testimonial-card__avatar-placeholder" aria-hidden="true">AR</div>
+              <div>
+                <div class="testimonial-card__name">Ana R.</div>
+                <div class="testimonial-card__meta">Ílhavo · cliente desde 2018</div>
+              </div>
+            </footer>
+          </li>
+
+          <li class="testimonial-card animate-on-scroll" data-delay="200">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+              <span class="testimonial-card__star" aria-hidden="true">★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              Trabalho com frota de 12 veículos e a Reboques Matos é o nosso parceiro de confiança. Disponibilidade total, sempre.
+            </blockquote>
+            <footer class="testimonial-card__author">
+              <div class="testimonial-card__avatar-placeholder" aria-hidden="true">CM</div>
+              <div>
+                <div class="testimonial-card__name">Carlos M.</div>
+                <div class="testimonial-card__meta">Águeda · gestor de frota</div>
+              </div>
+            </footer>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         FINAL CTA BANNER
+    ═══════════════════════════════════════════════════════ -->
+    <section class="cta-banner" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-banner__inner animate-on-scroll">
+          <h2 class="cta-banner__title" id="cta-title">Não espere. Ligue agora.</h2>
+          <p class="cta-banner__desc">
+            A nossa equipa está disponível 24 horas por dia, 7 dias por semana, para qualquer emergência rodoviária.
+          </p>
+          <div class="cta-banner__actions">
+            <a href="tel:234941680" class="btn btn--emergency btn--lg" aria-label="Ligar para 234 941 680">
+              📞 234 941 680
+            </a>
+            <a href="https://wa.me/351234941680" class="btn btn--lg" style="background-color:#25D366; color:#fff; border-color:#25D366;" aria-label="Contactar via WhatsApp" rel="noopener noreferrer" target="_blank">
+              💬 WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <!-- Brand column -->
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Reboques Matos — Página inicial">
+            <div class="footer__logo-mark" aria-hidden="true">RM</div>
+            <span class="footer__logo-text">Reboques Matos</span>
+          </a>
+          <p class="footer__desc">
+            Assistência rodoviária, guincho e reparação automóvel em Aveiro. 24 horas por dia, 365 dias por ano.
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link" aria-label="Facebook da Reboques Matos" rel="noopener noreferrer" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation column -->
+        <div class="footer__col">
+          <h3 class="footer__col-title">Navegação</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="index.html" class="footer__col-link">Início</a></li>
+            <li><a href="servicos.html" class="footer__col-link">Serviços</a></li>
+            <li><a href="sobre.html" class="footer__col-link">Sobre Nós</a></li>
+            <li><a href="contacto.html" class="footer__col-link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Services column -->
+        <div class="footer__col">
+          <h3 class="footer__col-title">Serviços</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="servicos.html" class="footer__col-link">Guincho</a></li>
+            <li><a href="servicos.html" class="footer__col-link">Pronto Socorro</a></li>
+            <li><a href="servicos.html" class="footer__col-link">Oficina</a></li>
+            <li><a href="servicos.html" class="footer__col-link">Assistência 24h</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact column -->
+        <div class="footer__col">
+          <h3 class="footer__col-title">Contacto</h3>
+          <address class="footer__contact-items" style="font-style:normal;">
+            <div class="footer__contact-item">
+              <i data-lucide="map-pin" class="footer__contact-icon" aria-hidden="true"></i>
+              <span class="footer__contact-text">
+                Rua do Castanheiro, 27<br>
+                Aveiro, 3810-739
+              </span>
+            </div>
+            <div class="footer__contact-item">
+              <i data-lucide="phone" class="footer__contact-icon" aria-hidden="true"></i>
+              <span class="footer__contact-text">
+                <a href="tel:234941680" aria-label="Ligar para 234 941 680">234 941 680</a>
+              </span>
+            </div>
+            <div class="footer__contact-item">
+              <i data-lucide="clock" class="footer__contact-icon" aria-hidden="true"></i>
+              <span class="footer__contact-text">
+                Aberto 24 horas<br>todos os dias
+              </span>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; 2025 Reboques Matos. Todos os direitos reservados.
+        </p>
+        <nav class="footer__bottom-links" aria-label="Ligações legais">
+          <a href="#" class="footer__bottom-link">Política de Privacidade</a>
+          <a href="#" class="footer__bottom-link">Termos de Uso</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════
+       EMERGENCY STRIP (Mobile only)
+  ═══════════════════════════════════════════════════════ -->
+  <div class="emergency-strip" role="banner" aria-label="Ligação de emergência">
+    <a href="tel:234941680" class="emergency-strip__link" aria-label="Avaria? Ligue já: 234 941 680">
+      <i data-lucide="alert-triangle" class="emergency-strip__icon" aria-hidden="true"></i>
+      <span class="emergency-strip__text">Avaria? Ligue já:</span>
+      <span class="emergency-strip__number">234 941 680</span>
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       WHATSAPP FAB
+  ═══════════════════════════════════════════════════════ -->
+  <div class="whatsapp-fab" role="complementary" aria-label="Contacto via WhatsApp">
+    <a
+      href="https://wa.me/351234941680"
+      class="whatsapp-fab__link"
+      aria-label="Contactar via WhatsApp"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <svg class="whatsapp-fab__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+      </svg>
+      <span class="whatsapp-fab__tooltip">Falar connosco</span>
+    </a>
+  </div>
+
+  <!-- Lucide Icons init -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof lucide !== 'undefined') { lucide.createIcons(); }
+    });
+  </script>
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
