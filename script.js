@@ -30,11 +30,15 @@ function initScrollNav() {
 
   const SCROLL_THRESHOLD = 20;
 
+  const isTransparent = navbar.classList.contains('nav--transparent');
+
   const onScroll = () => {
     if (window.scrollY > SCROLL_THRESHOLD) {
-      navbar.classList.add('scrolled');
+      navbar.classList.add('nav--scrolled');
+      if (isTransparent) navbar.classList.remove('nav--transparent');
     } else {
-      navbar.classList.remove('scrolled');
+      navbar.classList.remove('nav--scrolled');
+      if (isTransparent) navbar.classList.add('nav--transparent');
     }
   };
 
