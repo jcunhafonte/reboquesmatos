@@ -264,7 +264,7 @@ function initServicesScroll() {
   const onScroll = () => {
     if (!isDesktop()) return;
 
-    const rect = scrollArea.getBoundingClientRect();
+    const rect = section.getBoundingClientRect();
     const layoutOffsetPx = 280;
     const scrollableDistance = rect.height - window.innerHeight - layoutOffsetPx;
     const scrolled = -(rect.top) - layoutOffsetPx;
