@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Reboques Matos | Guincho e Pronto Socorro 24h em Aveiro</title>
+  <meta name="description" content="Serviço de guincho, pronto socorro e oficina de reparação em Aveiro. Assistência 24 horas, todos os dias. Ligue: 234 941 680.">
+  <link rel="canonical" href="https://reboquesmatos.pt/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Reboques Matos | Guincho 24h em Aveiro">
+  <meta property="og:description" content="Avaria? Estamos a caminho. Guincho e pronto socorro 24 horas em Aveiro e região.">
+  <meta property="og:image" content="/assets/fleet-headquarters.jpg">
+  <meta property="og:url" content="https://reboquesmatos.pt/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["AutoRepair", "TowingService"],
+    "name": "Reboques Matos",
+    "telephone": "+351234941680",
+    "openingHours": "Mo-Su 00:00-24:00",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua do Castanheiro, 27",
+      "addressLocality": "Aveiro",
+      "postalCode": "3810-739",
+      "addressCountry": "PT"
+    },
+    "url": "https://reboquesmatos.pt",
+    "image": "/assets/fleet-headquarters.jpg",
+    "priceRange": "€€",
+    "areaServed": "Aveiro, Portugal"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ════════ NAVIGATION — Floating Pill ════════ -->
+  <nav class="nav" role="navigation" aria-label="Navegação principal">
+    <a href="#hero" class="nav__logo" aria-label="Reboques Matos — Início">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="32" height="32">
+        <polygon points="60,5 110,32.5 110,87.5 60,115 10,87.5 10,32.5" fill="#1A6FD4"/>
+        <text x="60" y="72" text-anchor="middle" font-family="'Inter','Arial Black',sans-serif" font-weight="900" font-size="38" fill="#FFFFFF" letter-spacing="2">RM</text>
+      </svg>
+      <span class="nav__logo-text">Reboques Matos</span>
+    </a>
+    <div class="nav__links">
+      <a href="#services">Serviços</a>
+      <a href="#benefits">Sobre</a>
+      <a href="#contact">Contacto</a>
+    </div>
+    <a href="tel:234941680" class="nav__cta">
+      <i data-lucide="phone"></i>
+      234 941 680
+    </a>
+    <button class="nav__hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="nav__drawer" role="dialog" aria-label="Menu de navegação">
+    <a href="#services">Serviços</a>
+    <a href="#benefits">Sobre</a>
+    <a href="#contact">Contacto</a>
+    <a href="tel:234941680" class="nav__drawer-cta">
+      <i data-lucide="phone"></i>
+      Ligar Agora
+    </a>
+  </div>
+
+  <main>
+
+    <!-- ════════ 1. HERO — Scroll-driven video/image + character text reveal ════════ -->
+    <section id="hero" class="hero">
+      <div class="hero__video-wrap">
+        <video class="hero__video" autoplay muted loop playsinline preload="metadata">
+          <source src="assets/hero-video.mp4" type="video/mp4">
+        </video>
+        <img src="assets/night-tow.jpg" alt="" class="hero__video-fallback">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__scroll-content">
+        <div class="hero__title" data-title="0">Avariado na estrada?</div>
+        <div class="hero__title" data-title="1">Estamos a caminho.</div>
+        <div class="hero__title" data-title="2">24 Horas. Todos os dias.</div>
+        <div class="hero__title" data-title="3">Reboques Matos.</div>
+      </div>
+      <div class="hero__scroll-indicator">
+        <span>Desça para explorar</span>
+        <i data-lucide="chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ════════ 2. STATEMENT — Mission/value on dark bg ════════ -->
+    <section id="statement" class="statement grid-bg grid-bg--dark">
+      <div class="container">
+        <p class="section-label section-label--light animate-on-scroll">Assistência Rodoviária · Aveiro</p>
+        <h1 class="statement__heading animate-on-scroll">
+          Avariado na estrada?<br>
+          <span>Estamos a caminho.</span>
+        </h1>
+        <p class="statement__sub animate-on-scroll">
+          Guincho profissional, pronto socorro e oficina — 24 horas, todos os dias.
+        </p>
+        <div class="statement__ctas animate-on-scroll">
+          <a href="tel:234941680" class="btn btn--primary">
+            <i data-lucide="phone"></i>
+            Ligar Agora — 234 941 680
+          </a>
+          <a href="https://wa.me/351234941680" class="btn btn--whatsapp" target="_blank" rel="noopener">
+            <i data-lucide="message-circle"></i>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider: dark → light -->
+    <div class="divider">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,80 960,80 1440,0 L1440,80 L0,80 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+
+    <!-- ════════ 3. SERVICES — Numbered sticky scroll (signature section) ════════ -->
+    <section id="services" class="services grid-bg">
+      <div class="container">
+        <div class="services__header animate-on-scroll">
+          <p class="section-label section-label--dark">Os Nossos Serviços</p>
+          <h2 class="services__heading">Soluções completas para a sua viatura.</h2>
+        </div>
+      </div>
+
+      <div class="services__scroll-area">
+        <div class="services__sticky">
+          <div class="services__layout">
+            <!-- Left: text column -->
+            <div class="services__text-col">
+              <div class="services__item is-active" data-index="0">
+                <div class="services__item-number">
+                  <span class="services__item-bar"></span>
+                  <span class="services__item-num">01</span>
+                </div>
+                <h3 class="services__item-title">Serviço de Guincho</h3>
+                <p class="services__item-desc">Transporte seguro de veículos ligeiros e pesados em plataforma flatbed. Cobrimos Aveiro e toda a região.</p>
+              </div>
+
+              <div class="services__item" data-index="1">
+                <div class="services__item-number">
+                  <span class="services__item-bar"></span>
+                  <span class="services__item-num">02</span>
+                </div>
+                <h3 class="services__item-title">Pronto Socorro</h3>
+                <p class="services__item-desc">Avaria na estrada? A nossa equipa chega até si com equipamento de diagnóstico e reparação no local.</p>
+              </div>
+
+              <div class="services__item" data-index="2">
+                <div class="services__item-number">
+                  <span class="services__item-bar"></span>
+                  <span class="services__item-num">03</span>
+                </div>
+                <h3 class="services__item-title">Oficina de Reparação</h3>
+                <p class="services__item-desc">Diagnóstico, manutenção e reparação de automóveis em instalações próprias com equipamento profissional.</p>
+              </div>
+
+              <div class="services__item" data-index="3">
+                <div class="services__item-number">
+                  <span class="services__item-bar"></span>
+                  <span class="services__item-num">04</span>
+                </div>
+                <h3 class="services__item-title">Assistência 24 Horas</h3>
+                <p class="services__item-desc">Dia ou noite, fim de semana ou feriado. Nunca fechamos. Nunca.</p>
+              </div>
+
+              <div class="services__item" data-index="4">
+                <div class="services__item-number">
+                  <span class="services__item-bar"></span>
+                  <span class="services__item-num">05</span>
+                </div>
+                <h3 class="services__item-title">Veículos Pesados</h3>
+                <p class="services__item-desc">Capacidade para transporte de veículos pesados até 3500kg em plataforma especializada.</p>
+              </div>
+
+              <div class="services__item" data-index="5">
+                <div class="services__item-number">
+                  <span class="services__item-bar"></span>
+                  <span class="services__item-num">06</span>
+                </div>
+                <h3 class="services__item-title">Cobertura Regional</h3>
+                <p class="services__item-desc">Aveiro, Ílhavo, Vagos, Águeda, Oliveira do Bairro e toda a região centro.</p>
+              </div>
+            </div>
+
+            <!-- Right: image column -->
+            <div class="services__image-col">
+              <div class="services__image-wrap">
+                <img src="assets/flatbed-highway.jpg" alt="Serviço de guincho — transporte de veículos em plataforma" class="is-active" data-index="0" loading="lazy">
+                <img src="assets/heavy-tow-rain.jpg" alt="Pronto socorro — assistência rodoviária de emergência" data-index="1" loading="lazy">
+                <img src="assets/fleet-headquarters.jpg" alt="Oficina de reparação — instalações profissionais" data-index="2" loading="lazy">
+                <img src="assets/night-tow.jpg" alt="Assistência 24 horas — serviço noturno" data-index="3" loading="lazy">
+                <img src="assets/bus-tow.jpg" alt="Veículos pesados — transporte de autocarros e camiões" data-index="4" loading="lazy">
+                <img src="assets/highway-recovery.jpg" alt="Cobertura regional — assistência em auto-estrada" data-index="5" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider: light → dark -->
+    <div class="divider">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,80 960,80 1440,0 L1440,80 L0,80 Z" fill="#052424"/>
+      </svg>
+    </div>
+
+    <!-- ════════ 4. BRAND — "24H" massive statement ════════ -->
+    <section id="brand" class="brand grid-bg grid-bg--dark">
+      <div class="container">
+        <p class="brand__small animate-on-scroll">Confiança medida em quilómetros.</p>
+        <p class="brand__massive animate-on-scroll">24H</p>
+      </div>
+    </section>
+
+    <!-- Divider: dark → light -->
+    <div class="divider">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,80 960,80 1440,0 L1440,80 L0,80 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+
+    <!-- ════════ 5. BENEFITS — 3 cards with full-bleed images ════════ -->
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <div class="benefits__header animate-on-scroll">
+          <p class="section-label section-label--dark">Porquê a Reboques Matos</p>
+          <h2 class="benefits__heading">O que nos distingue.</h2>
+        </div>
+
+        <article class="benefit animate-on-scroll">
+          <img src="assets/highway-recovery.jpg" alt="Guincho em alta velocidade na auto-estrada — resposta rápida" class="benefit__image" loading="lazy">
+          <div class="benefit__content">
+            <div>
+              <p class="benefit__label">Benefício 01</p>
+              <h3 class="benefit__title">Rapidez</h3>
+            </div>
+            <p class="benefit__desc">Resposta imediata a qualquer hora. Equipa sempre pronta, guincho sempre disponível. Do telefonema à chegada, no menor tempo possível.</p>
+          </div>
+        </article>
+
+        <article class="benefit animate-on-scroll">
+          <img src="assets/heavy-tow-rain.jpg" alt="Operação de guincho profissional sob chuva — fiabilidade comprovada" class="benefit__image" loading="lazy">
+          <div class="benefit__content">
+            <div>
+              <p class="benefit__label">Benefício 02</p>
+              <h3 class="benefit__title">Fiabilidade</h3>
+            </div>
+            <p class="benefit__desc">Equipamento profissional, técnicos experientes, resultados comprovados em milhares de assistências. Pode confiar em nós.</p>
+          </div>
+        </article>
+
+        <article class="benefit animate-on-scroll">
+          <img src="assets/fleet-headquarters.jpg" alt="Sede da Reboques Matos em Aveiro — proximidade e confiança" class="benefit__image" loading="lazy">
+          <div class="benefit__content">
+            <div>
+              <p class="benefit__label">Benefício 03</p>
+              <h3 class="benefit__title">Proximidade</h3>
+            </div>
+            <p class="benefit__desc">Conhecemos cada estrada de Aveiro e região. Somos os vizinhos em quem pode confiar. Sempre perto, sempre disponíveis.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ════════ 6. TESTIMONIALS — Full-bleed dark image quote ════════ -->
+    <section id="testimonials" class="testimonials">
+      <img src="assets/flatbed-highway.jpg" alt="" class="testimonials__bg" loading="lazy">
+      <div class="testimonials__overlay"></div>
+      <div class="testimonials__content animate-on-scroll">
+        <div class="testimonials__stars">
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+          <i data-lucide="star"></i>
+        </div>
+        <blockquote class="testimonials__quote">
+          "Liguei às 3 da manhã com o carro avariado na A25. Em menos de 40 minutos estavam lá. Profissionais de verdade."
+        </blockquote>
+        <p class="testimonials__author">
+          <strong>Manuel S.</strong> · Aveiro · Assistência noturna na A25
+        </p>
+      </div>
+    </section>
+
+    <!-- ════════ 7. TRUST — Stats + logo grid ════════ -->
+    <section id="trust" class="trust grid-bg">
+      <div class="container">
+        <div class="trust__header animate-on-scroll">
+          <p class="section-label section-label--dark">Confiança Comprovada</p>
+          <h2 class="trust__heading">Ao serviço de Aveiro há mais de 20 anos.</h2>
+        </div>
+
+        <div class="trust__stats animate-on-scroll">
+          <div class="trust__stat">
+            <p class="trust__stat-number count-up" data-target="24" data-suffix="H">0</p>
+            <p class="trust__stat-label">Sempre abertos</p>
+          </div>
+          <div class="trust__stat">
+            <p class="trust__stat-number count-up" data-target="365" data-suffix="">0</p>
+            <p class="trust__stat-label">Dias por ano</p>
+          </div>
+          <div class="trust__stat">
+            <p class="trust__stat-number count-up" data-target="80" data-suffix="km">0</p>
+            <p class="trust__stat-label">Raio de cobertura</p>
+          </div>
+          <div class="trust__stat">
+            <p class="trust__stat-number count-up" data-target="1000" data-suffix="+">0</p>
+            <p class="trust__stat-label">Assistências/ano</p>
+          </div>
+        </div>
+
+        <div class="trust__divider"></div>
+
+        <div class="trust__logos animate-on-scroll">
+          <div class="trust__logo">Fidelidade</div>
+          <div class="trust__logo">Allianz</div>
+          <div class="trust__logo">Tranquilidade</div>
+          <div class="trust__logo">Ageas</div>
+          <div class="trust__logo">Liberty</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════ 8. HOW IT WORKS — 3 steps ════════ -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <div class="how-it-works__header animate-on-scroll">
+          <p class="section-label section-label--dark">Como Funciona</p>
+          <h2 class="how-it-works__heading">Do telefonema à solução, em 3 passos.</h2>
+        </div>
+
+        <div class="how-it-works__steps">
+          <div class="step animate-on-scroll">
+            <div class="step__number">
+              <span class="step__bar"></span>
+              <span class="step__num">01</span>
+            </div>
+            <h3 class="step__title">Ligue para nós</h3>
+            <p class="step__desc">Um operador atende de imediato, 24h por dia. Descreva a sua situação e localização.</p>
+          </div>
+
+          <div class="step animate-on-scroll" data-delay="150">
+            <div class="step__number">
+              <span class="step__bar"></span>
+              <span class="step__num">02</span>
+            </div>
+            <h3 class="step__title">Enviamos ajuda</h3>
+            <p class="step__desc">Guincho ou técnico a caminho para a sua localização. Acompanhamento em tempo real.</p>
+          </div>
+
+          <div class="step animate-on-scroll" data-delay="300">
+            <div class="step__number">
+              <span class="step__bar"></span>
+              <span class="step__num">03</span>
+            </div>
+            <h3 class="step__title">Problema resolvido</h3>
+            <p class="step__desc">Na estrada ou na nossa oficina, cuidamos de tudo. O seu veículo em boas mãos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════ 9. CONTACT — Form + contact options + map ════════ -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="contact__heading animate-on-scroll">Contacte-nos</h2>
+        <p class="contact__sub animate-on-scroll">Fale connosco, nos seus termos:</p>
+
+        <div class="contact__layout">
+          <!-- Left: contact options -->
+          <div class="contact__options animate-on-scroll">
+            <a href="tel:234941680" class="contact__option">
+              <div class="contact__option-number">
+                <span class="contact__option-bar"></span>
+                <span class="contact__option-num">01</span>
+              </div>
+              <i data-lucide="phone" class="contact__option-icon"></i>
+              <span class="contact__option-text">Ligar agora — 234 941 680</span>
+            </a>
+            <a href="https://wa.me/351234941680" class="contact__option" target="_blank" rel="noopener">
+              <div class="contact__option-number">
+                <span class="contact__option-bar"></span>
+                <span class="contact__option-num">02</span>
+              </div>
+              <i data-lucide="message-circle" class="contact__option-icon"></i>
+              <span class="contact__option-text">Enviar WhatsApp</span>
+            </a>
+            <a href="https://maps.google.com/?q=Rua+do+Castanheiro+27+Aveiro" class="contact__option" target="_blank" rel="noopener">
+              <div class="contact__option-number">
+                <span class="contact__option-bar"></span>
+                <span class="contact__option-num">03</span>
+              </div>
+              <i data-lucide="map-pin" class="contact__option-icon"></i>
+              <span class="contact__option-text">Visitar a oficina</span>
+            </a>
+            <a href="#contact-form" class="contact__option">
+              <div class="contact__option-number">
+                <span class="contact__option-bar"></span>
+                <span class="contact__option-num">04</span>
+              </div>
+              <i data-lucide="mail" class="contact__option-icon"></i>
+              <span class="contact__option-text">Enviar mensagem</span>
+            </a>
+          </div>
+
+          <!-- Right: form -->
+          <div class="animate-on-scroll">
+            <h3 class="contact__form-title" id="contact-form">Deixe-nos os seus dados:</h3>
+            <form class="contact-form" action="https://formspree.io/f/xpwzgkdl" method="POST">
+              <div class="form-field">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" required placeholder="O seu nome">
+              </div>
+              <div class="form-field">
+                <label for="telefone">Telefone *</label>
+                <input type="tel" id="telefone" name="telefone" required placeholder="912 345 678">
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+              </div>
+              <div class="form-field">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto">
+                  <option value="" disabled selected>Selecione um assunto</option>
+                  <option value="guincho">Serviço de Guincho</option>
+                  <option value="pronto-socorro">Pronto Socorro</option>
+                  <option value="oficina">Oficina de Reparação</option>
+                  <option value="orcamento">Orçamento</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Descreva a sua situação ou pedido..."></textarea>
+              </div>
+              <button type="submit" class="form-submit">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="contact__map animate-on-scroll">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2!2d-8.6538!3d40.6405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDM4JzI2LjAiTiA4wrAzOSczMS4yIlc!5e0!3m2!1spt-PT!2spt!4v1"
+            title="Localização Reboques Matos"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <p class="contact__map-caption">Cobrimos Aveiro e toda a região. Em caso de dúvida, ligue — chegamos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider: light → dark -->
+    <div class="divider">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 C480,80 960,80 1440,0 L1440,80 L0,80 Z" fill="#052424"/>
+      </svg>
+    </div>
+
+    <!-- ════════ 10. CTA BANNER ════════ -->
+    <section id="cta" class="cta-banner grid-bg grid-bg--dark">
+      <div class="container">
+        <h2 class="cta-banner__heading animate-on-scroll">Não espere. Ligue agora.</h2>
+        <div class="cta-banner__buttons animate-on-scroll">
+          <a href="tel:234941680" class="btn btn--white">
+            <i data-lucide="phone"></i>
+            234 941 680
+          </a>
+          <a href="https://wa.me/351234941680" class="btn btn--whatsapp" target="_blank" rel="noopener">
+            <i data-lucide="message-circle"></i>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════ FOOTER ════════ -->
+  <footer id="footer" class="footer grid-bg grid-bg--dark" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="40" height="40">
+              <polygon points="60,5 110,32.5 110,87.5 60,115 10,87.5 10,32.5" fill="#1A6FD4"/>
+              <text x="60" y="72" text-anchor="middle" font-family="'Inter','Arial Black',sans-serif" font-weight="900" font-size="38" fill="#FFFFFF" letter-spacing="2">RM</text>
+            </svg>
+            <span class="footer__logo-text">Reboques Matos</span>
+          </div>
+          <span class="footer__badge">
+            <i data-lucide="clock" style="width:14px;height:14px"></i>
+            Assistência 24H
+          </span>
+          <address class="footer__address">
+            Rua do Castanheiro, 27<br>
+            3810-739 Aveiro, Portugal
+          </address>
+        </div>
+        <div>
+          <p class="footer__col-title">Serviços</p>
+          <div class="footer__col-links">
+            <a href="#services">Guincho</a>
+            <a href="#services">Pronto Socorro</a>
+            <a href="#services">Oficina</a>
+            <a href="#services">24 Horas</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__col-title">Empresa</p>
+          <div class="footer__col-links">
+            <a href="#benefits">Sobre Nós</a>
+            <a href="#contact">Contacto</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__col-title">Contacto</p>
+          <a href="tel:234941680" class="footer__phone">234 941 680</a>
+          <div class="footer__col-links">
+            <a href="https://wa.me/351234941680" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+          <address class="footer__address" style="margin-top:12px">
+            Rua do Castanheiro, 27<br>
+            3810-739 Aveiro
+          </address>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/reboquesmatos" aria-label="Facebook" target="_blank" rel="noopener">
+              <i data-lucide="facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2025 Reboques Matos. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════ FLOATING ELEMENTS ════════ -->
+  <a href="https://wa.me/351234941680" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contactar via WhatsApp">
+    <span class="whatsapp-fab__icon"><i data-lucide="message-circle"></i></span>
+    <span class="whatsapp-fab__label">Falar connosco</span>
+  </a>
+
+  <div class="emergency-strip">
+    <a href="tel:234941680">🚨 Avaria? Ligue já: 234 941 680</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
